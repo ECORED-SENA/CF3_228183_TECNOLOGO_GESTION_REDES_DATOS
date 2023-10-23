@@ -2,14 +2,23 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    right: 75%
   &-2
+    animation: rotate1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 10%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 30%
+    right: -5%
+  &-4
+    animation: rotate2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 75%
+    right: 14.3%
 
 @keyframes float1
   0%
@@ -17,3 +26,200 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes rotate2
+  0%
+    transform: rotate(0)
+
+  100%
+    transform: rotate(360deg)
+@keyframes rotate1
+  0%
+    transform: rotate(360deg)
+
+  100%
+    transform: rotate(0deg)
+
+.m-n
+  margin: 0 -3rem
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $white
+
+.bg-fee0e7
+  background: #FEE0E7
+
+.bg-gradient-ff-e9
+  background: linear-gradient(to bottom, #FFFFFF, #E9E2FF)
+  margin-left: -48px
+  margin-right: -48px
+  padding-left: 48px
+  padding-right: 48px
+
+.bg-fbfaff
+  background: #FBFAFF
+
+.bg-e9e2ff
+  background: #E9E2FF
+
+.bg-d9f6ff
+  background: #D9F6FF
+
+.bg-fee0e7, .tabs-a__tab
+  background: #FEE0E7
+
+.bg-fdb6c7
+  background: #FDB6C7
+
+.bg-gray
+  background: $color-sistema-g !important
+
+.lista-ul--separador
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ul--color
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ol--cuadro
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.texto-acento-contenido
+  color: $color-acento-contenido !important
+
+.tarjeta-avatar-b__img
+  min-width: 16%
+.tarjeta-avatar-b .tarjeta
+  padding-left: 5%
+.tarjeta-avatar-b > img, .tarjeta-avatar-b__img > img
+  max-width: 91px
+  max-height: 91px
+
+.tabs-a.color-acento-contenido .tabs-a__tab__selected, .tabs-a.color-acento-contenido .tabs-a__tab__selected:before
+  background: #FDB6C7
+
+.tarjeta.color-acento-contenido--borde
+  border-color: rgba(18,38,63, .13)
+
+
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: white
+
+.tabs-a
+  &.color-alterno
+    .tabs-a__tab
+      &:hover, &:active, &:focus
+        background-color: #FEE0E7
+        color: $color-sistema-texto
+      &__selected
+        background-color: #FDB6C7 !important
+        color: $color-sistema-texto
+        &:before
+          background-color: #FDB6C7
+
+.bg-slyde-gradiente
+  background-image: url(../assets/curso/fondos/fondo1.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  margin-left: -48px
+  margin-right: -48px
+  padding-inline: 48px
+  padding-top: 24px
+  padding-bottom: 24px
+
+.bg-slyde-gradiente-2
+  background-image: url(../assets/curso/fondos/fondo2.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  margin-left: -48px
+  margin-right: -48px
+  padding-inline: 48px
+  padding-top: 24px
+  padding-bottom: 24px
+
+.bg-12263f
+  background: #12263f !important
+
+.bg-12263f *
+  color: white
+
+.slyder-f__btn i
+  color: $color-acento-botones
+
+.img-a
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto
+
+
+.pasos-a__circle
+  display: none
+  width: 5.75rem !important
+  height: 4rem
+
+.figpasos
+  width: 6.5rem
+  margin-bottom: -3.5rem !important
+  position: relative
+  left: -6rem
+  //top: 1rem
+  z-index: 2
+  float: left
+  transform-origin: center
+.figpasod
+  width: 6.5rem
+  margin-bottom: -3.5rem
+  position: relative
+  left: 100% //5rem
+  //top: calc(50% + 3.5rem)
+  z-index: 2
+  transform-origin: center
+.figpasoi
+  width: 6.5rem
+  margin-bottom: -3.5rem
+  position: relative
+  left: -6rem
+  //top: calc(50% - 3.75rem)
+  z-index: 2
+  float: left
+  transform-origin: center
+.figpasoe
+  width: 6.5rem
+  margin-bottom: -3.5rem
+  position: relative
+  left: 100% //5rem
+  //top: 1rem
+  z-index: 2
+  transform-origin: center
+
+@media screen and ( min-width: $bp-min-lg )
+  .figpasod, .figpasoi
+    position: relative
+    top: 75% !important
