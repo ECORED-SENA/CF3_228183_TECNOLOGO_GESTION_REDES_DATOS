@@ -171,12 +171,19 @@ export default {
   },
   complementario: [
     {
-      tema: '1.3. Seguridad en la red',
+      tema: '1. Introducción a las redes inalámbricas',
       referencia:
-        'Castro, R. (2005). Avanzando en la seguridad de las redes WIFI. <em>ENFOQUES</em>, 73, p. 23-33.',
-      tipo: 'Artículo',
+        'XIRIO online. (s.f.) Planificación de redes de acceso. XIRIO.',
+      tipo: 'Página web',
+      link: 'https://www.xirio-online.com/web/help/es/index.htm',
+    },
+    {
+      tema: '2. Configuración de la red',
+      referencia:
+        'Cisco Networking Academy. (s.f.). Networking CCNA: Switching, Routing, and Wireless Essentials. Cisco.',
+      tipo: 'Página web',
       link:
-        'https://www.rediris.es/difusion/publicaciones/boletin/73/ENFOQUE1.pdf',
+        'https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials',
     },
   ],
   glosario: [
@@ -294,11 +301,6 @@ export default {
       referencia:
         'Stallings, W., Tanenbaum, A., Fall, K. R., & Stevens, W. R. (2000). Comunicaciones y redes de computadores. 6ª edición. Prentice-Hall.',
     },
-    {
-      referencia:
-        'XIRIO online. (s.f.). Planificación de redes de acceso. XIRIO.',
-      link: 'https://www.xirio-online.com/web/help/es/index.htm',
-    },
   ],
   creditos: [
     {
@@ -322,36 +324,27 @@ export default {
       autores: [
         {
           nombre: 'Jorge Eliécer Loaiza Muñoz',
-          cargo: 'Instructor',
+          cargo: 'Experto temático',
           centro:
             'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
           nombre: 'Carlos Mauricio Tovar Artunduaga',
-          cargo: 'Instructor',
+          cargo: 'Experto temático',
           centro:
             'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
-          nombre: 'Luz Mila Pacheco Fuentes',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Diseño y Metrología  - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+          nombre: 'Claudia López Arboleda',
+          cargo: 'Experto temática',
+          centro:
+            'Centro de Teleinformática y Producción Industrial  - Regional Cauca',
         },
         {
           nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseñador instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Darío González',
-          cargo: 'Corrección de estilo',
-          centro: 'Centro Agropecuario La Granja - Regional Tolima',
         },
       ],
     },
@@ -371,8 +364,8 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Daniela Muñoz Bedoya ',
+          cargo: 'Animador y Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -401,7 +394,7 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

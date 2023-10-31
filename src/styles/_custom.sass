@@ -71,6 +71,12 @@
 .bg-fdb6c7
   background: #FDB6C7
 
+.bg-ffebf0
+  background: #FFEBF0
+
+.bg-d3dfff
+  background: rgba(211,223,255,.92)
+
 .bg-gray
   background: $color-sistema-g !important
 
@@ -79,7 +85,7 @@
     display: flex !important
     &::before
       position: relative
-      margin-right: 7px
+      margin-right: 8px
       font-size: 1.4rem
 
 .lista-ul
@@ -223,3 +229,50 @@
   .figpasod, .figpasoi
     position: relative
     top: 75% !important
+
+@media screen and (max-width: $bp-max-md )
+  .tarjeta-avatar .tarjeta
+    width: 100%
+
+.step
+  display: flex
+  align-items: center
+
+.step-number
+  font-size: 65px
+  color: #6E40FC
+  font-weight: 700
+  margin-right: 20px
+  font-family: 'roboto', sans-serif
+  lett
+
+.step-description, .additional-info
+  line-height: 125%
+  font-size: .92em
+
+.bg-border
+  border: 0
+  border-left: 1px solid #6E40FC
+  padding-left: 48px
+
+.tarjeta.tarjeta--azul1
+  background-color: #E9E4FA
+.tarjeta.tarjeta--azul1.acordion__activo
+  background-color: #E6DEFF
+
+.acordion__accion__btn--a, .acordion__accion__btn--b
+  background-color: red
+  border: 0px
+  i
+    color: white
+
+.lista-ul li>i:first-of-type,
+.lista-ul--separador li>i:first-of-type,
+.lista-ul--color li>i:first-of-type
+  top: 7px
+
+.tarjeta-avatar-p50
+  padding-top: 50px
+
+.tarjeta.bg-CFC0FA
+  background: #CFC0FA
