@@ -72,12 +72,12 @@
         img(src="@/assets/curso/temas/tema2/img2.svg", alt="")
 
 
-    p.mb-5 El video que se propone enseguida, detalla el proceso de configuración de router TPLINK con frecuencia TL-MR3220:
+    p.mb-5 El video que se propone enseguida, detalla el proceso de configuración de <i>router</i> TPLINK con frecuencia TL-MR3220:
 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/VECnk2krCG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Configuración de router TP LINK TL MR3220
+      figcaption Video. Configuración de <i>router</i> TP LINK TL MR3220
 
 
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-3.mb-4
@@ -87,7 +87,7 @@
       .col-lg-6
         p Una red inalámbrica es más vulnerable, pues la señal se difunde en el espacio libre, permitiendo que los usuarios con equipos cercanos puedan acceder a la información almacenada en los equipos de la red y usar la conexión a Internet.
         .cajon.color-acento-contenido.p-4.mb-4
-          p.mb-0 Se debe cambiar el nombre de usuario, contraseña y SSID predeterminados para proteger el enrutador. Es importante configurar una contraseña para la red inalámbrica, dependiendo del tipo de protección deseada por parte del usuario, para ello existen entre otros tres tipos de seguridad o protección en el menú wireless security que son:
+          p.mb-0 Se debe cambiar el nombre de usuario, contraseña y SSID predeterminados para proteger el enrutador. Es importante configurar una contraseña para la red inalámbrica, dependiendo del tipo de protección deseada por parte del usuario, para ello existen entre otros tres tipos de seguridad o protección en el menú <i>wireless security</i> que son:
 
         ul.lista-ul--separador
           li
@@ -95,7 +95,7 @@
             span WPA/WPA2 personal
           li
             i.fas.fa-play.texto-acento-contenido(style="font-size: 9px")
-            span WPA/WPA2 enterprise
+            span WPA/WPA2 <i>enterprise</i>
           li
             i.fas.fa-play.texto-acento-contenido(style="font-size: 9px")
             span WEP
@@ -132,7 +132,7 @@
     Separador
 
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1. Seguridad, firewall, filtros, aplicaciones
+      h2 2.1. Seguridad, <i>firewall</i>, filtros, aplicaciones
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -141,24 +141,24 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Se debe tener en cuenta que son muchos los ataques que pueden existir para una red inalámbrica. Así mismo, que una gran cantidad de puertos se deben bloquear para minimizar estos riesgos, con la aplicación de normativas, protocolos, estándares y demás medidas que sean necesarias.
 
-    p.mb-5 Un firewall funciona como una barrera entre Internet y otras redes públicas y los dispositivos. Todo el tipo de tráfico que no esté en la lista permitida por el firewall no entra ni sale de los dispositivos de la red; para ello contiene un conjunto de reglas predefinidas que permiten:
+    p.mb-5 Un <i>firewall</i> funciona como una barrera entre Internet y otras redes públicas y los dispositivos. Todo el tipo de tráfico que no esté en la lista permitida por el <i>firewall</i> no entra ni sale de los dispositivos de la red; para ello contiene un conjunto de reglas predefinidas que permiten:
 
     .row.align-items-center
       .col-xl-7
         ul.lista-ul--separador
           li
             i.fas.fa-play.texto-acento-contenido(style="font-size: 9px")
-            span Autorizar una conexión (allow).
+            span Autorizar una conexión (<i>allow</i>).
           li
             i.fas.fa-play.texto-acento-contenido(style="font-size: 9px")
-            span Bloquear una conexión (deny).
+            span Bloquear una conexión (<i>deny</i>).
           li
             i.fas.fa-play.texto-acento-contenido(style="font-size: 9px")
-            span Redireccionar un pedido de conexión sin avisar al emisor (drop).
+            span Redireccionar un pedido de conexión sin avisar al emisor (<i>drop</i>).
       .col-xl-5.d-none.d-xl-block
         img(src="@/assets/curso/temas/tema2/img6.svg", alt="", style="max-width: 350px").mx-auto
 
-    p.mb-5 También existe el firewall de software que se puede instalar y utilizar libremente o con licencia, en los dispositivos de la red o con acceso a redes que se encargan de monitorear y bloquear, siempre que sea necesario, el tráfico sospechoso o de Internet.
+    p.mb-5 También existe el <i>firewall de software</i> que se puede instalar y utilizar libremente o con licencia, en los dispositivos de la red o con acceso a redes que se encargan de monitorear y bloquear, siempre que sea necesario, el tráfico sospechoso o de Internet.
 
     .row.align-items-center.mb-5
       .col-xl-5.d-none.d-xl-block
@@ -183,7 +183,7 @@
 
 
     .cajon.color-acento-contenido.p-4.mb-5
-      p.mb-0 Por el contrario, un firewall por hardware viene normalmente instalado en los router que se utilizan para acceder a Internet. Por tanto, todos los dispositivos que se conecten a un router estarán protegidos por un firewall que está incluido en el router.
+      p.mb-0 Por el contrario, un <i>firewall</i> por <i>hardware</i> viene normalmente instalado en los <i>router</i> que se utilizan para acceder a Internet. Por tanto, todos los dispositivos que se conecten a un <i>router</i> estarán protegidos por un <i>firewall</i> que está incluido en el <i>router</i>.
 
     Separador
 
@@ -232,7 +232,7 @@
               p Se realiza para impedir o limitar el acceso al manejo de dispositivos destinados a la reproducción o recepción de imágenes e información, de determinados contenidos para los menores de edad; determinando con exactitud los dispositivos que se deben bloquear o proteger.
           .row(titulo="Acceso restringido")
             .col-12
-              p Dado que el acceso a Internet de estudiantes, niños, adolescentes, adultos mayores o población sensible es, hoy en día, muy fácil. Cada vez, crece el acceso a edades más tempranas mediante dispositivos multimedia como smartphones o tablets.
+              p Dado que el acceso a Internet de estudiantes, niños, adolescentes, adultos mayores o población sensible es, hoy en día, muy fácil. Cada vez, crece el acceso a edades más tempranas mediante dispositivos multimedia como <i>smartphones</i> o <i>tablets</i>.
           .row(titulo="Educación digital")
             .col-12
               p Es imprescindible una buena educación digital. Con ella, se mitigan las posibilidades de riesgos del consumo de información, peligros propios de la conectividad, distorsión de la intencionalidad de las redes y servicios tecnológicos, entre otras.
@@ -309,7 +309,7 @@
 
             li
               i.fas.fa-play.texto-acento-contenido(style="font-size: 9px")
-              span No en todos los router funciona de la misma manera.
+              span No en todos los <i>router</i> funciona de la misma manera.
 
             li
               i.fas.fa-play.texto-acento-contenido(style="font-size: 9px")
@@ -390,7 +390,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img5.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Es posible que una aplicación determinada o, por ejemplo, un juego en un momento concreto pida algo denominado reenvío de puertos, sin ese reenvío de puertos no podría haber conexión entre la aplicación o juego y el tráfico entrante o datos ingresados en Internet. No se puede hacer uso de determinadas funciones con las que cuenta un software determinado.
+        p.mb-0 Es posible que una aplicación determinada o, por ejemplo, un juego en un momento concreto pida algo denominado reenvío de puertos, sin ese reenvío de puertos no podría haber conexión entre la aplicación o juego y el tráfico entrante o datos ingresados en Internet. No se puede hacer uso de determinadas funciones con las que cuenta un <i>software</i> determinado.
         br
         br
         | Este problema se puede solucionar si se configura el reenvío de puertos en Windows 10; es un proceso sencillo y simplemente hay que llevar a cabo una serie de pasos que se van a explicar en el siguiente video.
@@ -403,7 +403,7 @@
     p.mb-5 Cuando se haya creado la regla se unirá a todas las que ya estaban presentes. Se puede modificar, hacer que se aplique solo a unos determinados programas o servicios, etc. En definitiva, siguiendo estos pasos que se han mencionado se pueden reenviar puertos en Windows 10 en caso de que una aplicación o servicio pida hacerlo.
 
     .cajon.color-acento-contenido.p-4.mb-4
-      p.mb-0 Finalmente, todo lo indicado anteriormente es un proceso sencillo, rápido y que se puede lograr a través de la propia configuración del sistema operativo, sin tener que instalar nada adicional. Por otra parte, es necesario recordar la importancia de contar con herramientas de seguridad; un buen antivirus y firewall pueden evitar la entrada de amenazas. En este sentido, se tiene la posibilidad de hacer uso de Windows Defender, que está disponible en el sistema operativo de Microsoft de forma gratuita.
+      p.mb-0 Finalmente, todo lo indicado anteriormente es un proceso sencillo, rápido y que se puede lograr a través de la propia configuración del sistema operativo, sin tener que instalar nada adicional. Por otra parte, es necesario recordar la importancia de contar con herramientas de seguridad; un buen antivirus y <i>firewall</i> pueden evitar la entrada de amenazas. En este sentido, se tiene la posibilidad de hacer uso de Windows Defender, que está disponible en el sistema operativo de Microsoft de forma gratuita.
 
 </template>
 
