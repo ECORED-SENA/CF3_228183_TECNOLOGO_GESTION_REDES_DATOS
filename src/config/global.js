@@ -287,6 +287,11 @@ export default {
     },
     {
       referencia:
+        'Linksys. (s.f.). Configuración de su extensor de red Linksys en modo Punto de Acceso.',
+      link: 'https://www.linksys.com/es/support-article/?articleNum=187985',
+    },
+    {
+      referencia:
         'Linksys. (s.f.). ¿Qué es un punto de acceso y en qué se diferencia de un extensor de red?',
       link:
         'https://www.linksys.com/es/r/qu%C3%A9-es-un-extensor-de-red/qu%C3%A9-es-un-punto-de-acceso/',
@@ -300,6 +305,11 @@ export default {
     {
       referencia:
         'Stallings, W., Tanenbaum, A., Fall, K. R., & Stevens, W. R. (2000). Comunicaciones y redes de computadores. 6ª edición. Prentice-Hall.',
+    },
+    {
+      referencia:
+        'XIRIO online. (s.f.). Planificación de redes de acceso. XIRIO.',
+      link: 'https://www.xirio-online.com/web/help/es/index.htm',
     },
   ],
   creditos: [

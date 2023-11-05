@@ -15,8 +15,8 @@
         .col: p Aquí comienza el estudio del componente formativo #[b “Configuración y gestión de dispositivos inalámbricos”]; explore la información del video que se muestra enseguida, la cual le contextualiza sobre los aspectos más importantes de los temas por desarrollar. #[b ¡Adelante!]
       figure(style="margin-bottom: -300px")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/XwMGaLQ9_Qc?si=-sbGUnihbxyuNZIP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Configuración y gestión de dispositivos inalámbricos
 
 </template>
 
