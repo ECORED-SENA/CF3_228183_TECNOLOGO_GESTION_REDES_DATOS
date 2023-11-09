@@ -262,7 +262,7 @@
     .row.align-items-center.justify-content-between.mb-5
       .col-lg-6(data-aos='fade-right')
         figure.mb-4
-          img(src='@/assets/curso/temas/t1/f16.svg' alt='Ilustración modo BSS')
+          img(src='@/assets/curso/temas/tema1/f16.svg' alt='Ilustración modo BSS')
       .col-lg-6
         p Para las redes que trabajan con el estándar IEEE 802.11 el modo de infraestructura se conoce como Conjunto de Servicios Básicos (BSS - #[em Basic Service Set]) y las denominan también cliente - servidor o maestro - esclavo. Para este modo de infraestructura existe un dispositivo central que corresponde al punto de acceso o estación base, que generalmente se conecta a una red <i>Ethernet</i> cableada, y así los clientes inalámbricos pueden acceder a la red fija por medio del punto de acceso. En el proceso de interconexión de los dispositivos inalámbricos hacia los puntos de acceso se debe configurar con el mismo SSID, lo que garantiza optimizar la capacidad total de la red.
         p Para este caso se pueden encontrar varias formas de distribuir los elementos conectados a la red, las cuales se presentan en la siguiente tabla.

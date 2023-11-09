@@ -56,7 +56,7 @@
               .tarjeta.bg-d3dfff
                 .p-4
                   h3 Interfaz de usuario de pantalla táctil
-                  p Diseñadas para pantallas táctiles, sin botones físicos, se encuentran en smartphone, tablets, cajeros automáticos, etc.
+                  p Diseñadas para pantallas táctiles, sin botones físicos, se encuentran en #[i smartphone], #[i tablets], cajeros automáticos, etc.
 
           .col-lg-11(data-aos='fade-right')
             .tarjeta-avatar-b.mb-5
@@ -281,7 +281,7 @@
               p Existe una herramienta para instalar en el computador que se llama Qustodio. Está disponible tanto para Windows, MacOS, Android y iOS, dispone de dos versiones: una gratuita y otra de pago; viene diseñada tanto para ámbitos familiares como escolares. Permite controlar tiempos de conexión, filtros de contenido prohibido e inapropiado. Incluso, cuenta con restricción de palabras no apropiadas.
           .row(titulo="Personalización del control")
             .col-12
-              p Se pueden personalizar filtros de contenido y ver la actividad del computador que se quiera. Para ampliar la versión de pago, se ofrecen informes mucho más detallados, bloqueo total de pornografía, bloqueo de aplicaciones, juegos y contenidos, monitorización de YouTube, seguimiento en redes sociales, control de llamadas y SMS, geolocalización por GPS y un botón de pánico instalable en el smartphone del usuario que podrá usar en cualquier momento para pedir ayuda.
+              p Se pueden personalizar filtros de contenido y ver la actividad del computador que se quiera. Para ampliar la versión de pago, se ofrecen informes mucho más detallados, bloqueo total de pornografía, bloqueo de aplicaciones, juegos y contenidos, monitorización de YouTube, seguimiento en redes sociales, control de llamadas y SMS, geolocalización por GPS y un botón de pánico instalable en el #[i smartphone] del usuario que podrá usar en cualquier momento para pedir ayuda.
 
     Separador
 
