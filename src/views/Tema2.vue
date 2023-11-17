@@ -74,7 +74,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/VECnk2krCG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fqye1vsQxhM?si=IT_HLiXgZA7xylLc" title="Configuración de router TP LINK TL MR3220 02" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Configuración de <i>router</i> TP LINK TL MR3220
 
 
@@ -254,7 +254,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/FHupKR_VMks" title="Configuración del control parental" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/EdefhwjeN3s?si=Y0H-6TcW5sbBqt2L" title="Configuración del control parental" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Configuración del control parental
 
     p(data-aos='fade-right') Como es de esperar, este tipo de sistema de control parental de Windows 10 solo funciona en navegadores Microsoft Edge y Explorer; para evitar el uso de otro navegador se puede bloquear como se mencionó antes o, también, instalar el control parental del que también disponen Google Chrome o Mozilla Firefox.
@@ -395,7 +395,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/K6of_PrMUtY" title="Reenvío de puertos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MPzsQpv5B3A?si=5ZxF8ax3q0f_GoUj" title="Reenvío de puertos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Reenvío de puertos
 
     p.mb-5(data-aos='fade-right') Cuando se haya creado la regla se unirá a todas las que ya estaban presentes. Se puede modificar, hacer que se aplique solo a unos determinados programas o servicios, etc. En definitiva, siguiendo estos pasos que se han mencionado se pueden reenviar puertos en Windows 10 en caso de que una aplicación o servicio pida hacerlo.
