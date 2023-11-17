@@ -24,7 +24,7 @@
               p.mb-0 Se menciona que en 1899 el italiano Guillermo Marconi logró establecer comunicaciones mediante señales inalámbricas a través del canal de la Mancha, entre las ciudades de Dover y Wilmereux. Para 1907 se comunicaron los primeros mensajes completos a través del Atlántico.
 
     .bg-gradient-ff-e9.pt-5.pb-3
-      p(data-aos='fade-right') Otro dato a tener en cuenta sobre el año 1971 es que un grupo de investigadores bajo la dirección de Norman Abramson, de la Universidad de Hawái, fueron pioneros con el sistema de conmutación de paquetes mediante una red de comunicación por radio llamada ALOHA. Se puede decir que esta fue la primera WLAN, la cual estaba formada por siete computadores situados en distintas islas que se podían comunicar por medio de un servidor. De ahí nació lo que hoy en día se conoce como wifi. En 1997 sale al mercado gracias a la creación del comité 802.11, en el que se dio paso a la estandarización IEEE, (<i>Institute of Electronics and Electrical Engineers</i>), para redes de área local inalámbricas (WLAN).
+      p(data-aos='fade-right') Otro dato a tener en cuenta sobre el año 1971 es que un grupo de investigadores bajo la dirección de Norman Abramson, de la Universidad de Hawái, fueron pioneros con el sistema de conmutación de paquetes mediante una red de comunicación por radio llamada ALOHA. Se puede decir que esta fue la primera WLAN, la cual estaba formada por siete computadores situados en distintas islas que se podían comunicar por medio de un servidor. De ahí nació lo que hoy en día se conoce como #[em wifi]. En 1997 sale al mercado gracias a la creación del comité 802.11, en el que se dio paso a la estandarización IEEE, (<i>Institute of Electronics and Electrical Engineers</i>), para redes de área local inalámbricas (WLAN).
 
     #t_1_1.titulo-segundo.color-acento-contenido.mt-5(data-aos='fade-right')
       h2 1.1 Clasificación de redes inalámbricas
@@ -52,7 +52,7 @@
             img(src="@/assets/curso/temas/t1/f3.svg", alt="Ilustración red WLAN").p-4
           .col-md-6.mb-4.mb-md-0
             h5 Redes inalámbricas de area local o WLAN
-            p (<i>Wireless Local Area Network</i>). Tienen un alcance de cientos de metros, utilizadas para comunicar dispositivos ubicados en un mismo edificio o grupos de edificios como, por ejemplo, HomeRF o wifi.
+            p (<i>Wireless Local Area Network</i>). Tienen un alcance de cientos de metros, utilizadas para comunicar dispositivos ubicados en un mismo edificio o grupos de edificios como, por ejemplo, #[em HomeRF] o #[em wifi].
       .bg-fbfaff.py-3.py-md-4(titulo="Red WMAN")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0(data-aos='fade-right')
@@ -100,6 +100,8 @@
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3 Ventajas y desventajas
+
+    p Entre las ventajas que tiene el uso de redes inalámbricas, están:
 
     .row.align-items-center
         .col-lg-6
@@ -177,7 +179,7 @@
           .tarjeta.bg-e9e2ff
             .p-4
               h3 Punto de acceso
-              p Dispositivo de capa 2, por medio del cual las estaciones wireless pueden integrarse rápida y fácilmente a cualquier red cableada, actuando como núcleo de la red inalámbrica y puente de conexión entre redes inalámbricas y cableadas. El punto de acceso se conecta a un <i>router, switch o hub</i> con un cable <i>Ethernet</i> y radia la señal wifi en un área específica, como ejemplo, si desea habilitar el acceso wifi en el área de recepción de una empresa, pero no existe un <i>router</i> que pueda cubrirla, se instala un punto de acceso cerca de la recepción y se conecta con un cable hacia el salón de equipos donde está el servidor.
+              p Dispositivo de capa 2, por medio del cual las estaciones wireless pueden integrarse rápida y fácilmente a cualquier red cableada, actuando como núcleo de la red inalámbrica y puente de conexión entre redes inalámbricas y cableadas. El punto de acceso se conecta a un <i>router, switch o hub</i> con un cable <i>Ethernet</i> y radia la señal #[em wifi] en un área específica, como ejemplo, si desea habilitar el acceso #[em wifi] en el área de recepción de una empresa, pero no existe un <i>router</i> que pueda cubrirla, se instala un punto de acceso cerca de la recepción y se conecta con un cable hacia el salón de equipos donde está el servidor.
 
       .col-lg-11(data-aos='fade-right')
         .tarjeta-avatar-b.mb-5
@@ -264,7 +266,7 @@
         figure.mb-4
           img(src='@/assets/curso/temas/tema1/f16.svg' alt='Ilustración modo BSS')
       .col-lg-6
-        p Para las redes que trabajan con el estándar IEEE 802.11 el modo de infraestructura se conoce como Conjunto de Servicios Básicos (BSS - #[em Basic Service Set]) y las denominan también cliente - servidor o maestro - esclavo. Para este modo de infraestructura existe un dispositivo central que corresponde al punto de acceso o estación base, que generalmente se conecta a una red <i>Ethernet</i> cableada, y así los clientes inalámbricos pueden acceder a la red fija por medio del punto de acceso. En el proceso de interconexión de los dispositivos inalámbricos hacia los puntos de acceso se debe configurar con el mismo SSID, lo que garantiza optimizar la capacidad total de la red.
+        p Para las redes que trabajan con el estándar IEEE 802.11, el modo de infraestructura se conoce como Conjunto de Servicios Básicos (BSS - #[em Basic Service Set]) y las denominan también cliente - servidor o maestro - esclavo. Para este modo de infraestructura existe un dispositivo central que corresponde al punto de acceso o estación base, que generalmente se conecta a una red <i>Ethernet</i> cableada, y así los clientes inalámbricos pueden acceder a la red fija por medio del punto de acceso. En el proceso de interconexión de los dispositivos inalámbricos hacia los puntos de acceso se debe configurar con el mismo SSID, lo que garantiza optimizar la capacidad total de la red.
         p Para este caso se pueden encontrar varias formas de distribuir los elementos conectados a la red, las cuales se presentan en la siguiente tabla.
 
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-3.mb-4(data-aos='fade-right')
@@ -289,7 +291,7 @@
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.6 Tecnologías de redes inalámbricas
 
-    p(data-aos='fade-right') En la actualidad, existen dos tipos de redes inalámbricas: para exteriores e interiores; en los sistemas para exteriores el sistema de posicionamiento global conocido como GPS por sus siglas en inglés (<i>Global Positioning System</i>), es el estándar de referencia por la precisión que consigue el receptor en línea directa con varios satélites de forma simultánea.
+    p(data-aos='fade-right') En la actualidad, existen dos tipos de redes inalámbricas: para exteriores e interiores; en los sistemas para exteriores el sistema de posicionamiento global conocido como GPS por su sigla en inglés (<i>Global Positioning System</i>), es el estándar de referencia por la precisión que consigue el receptor en línea directa con varios satélites de forma simultánea.
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos='fade-right')
       .bloque-texto-g__img(
@@ -303,15 +305,15 @@
     PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos='fade-right')
       .row
         img(src='@/assets/curso/temas/tema1/iconos/1.svg' alt='1').figpasos
-        h4 Bluetooth
-        p Es la tecnología inalámbrica más utilizada para transmitir datos entre dispositivos cercanos, basada en radiofrecuencia, en la banda libre de 2.4 GHz y 3 Mbps de velocidad máxima; es muy frecuente su uso para pasar fotos y música entre teléfonos móviles. Los autos disponen del sistema Bluetooth para atender llamadas telefónicas con manos libres al estar conduciendo, en los dispositivos domésticos es más frecuente como en el <i>mouse</i>, los auriculares, entre otros.
+        h4 #[em Bluetooth]
+        p Es la tecnología inalámbrica más utilizada para transmitir datos entre dispositivos cercanos, basada en radiofrecuencia, en la banda libre de 2.4 GHz y 3 Mbps de velocidad máxima; es muy frecuente su uso para pasar fotos y música entre teléfonos móviles. Los autos disponen del sistema #[em Bluetooth] para atender llamadas telefónicas con manos libres al estar conduciendo, en los dispositivos domésticos es más frecuente como en el <i>mouse</i>, los auriculares, entre otros.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/2.svg' alt='2').figpasod
         h4 <i>European Installation Bus</i>
         p Usado para interconectar redes eléctricas inteligentes.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/3.svg' alt='3').figpasoi
-        h4 HomePlug
+        h4 #[em HomePlug]
         p Protocolo utilizado para tender cableado doméstico de energía eléctrica.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/4.svg' alt='4').figpasod
@@ -324,18 +326,18 @@
       .row
         img(src='@/assets/curso/temas/tema1/iconos/6.svg' alt='6').figpasod
         h4 nanoNET
-        p Se trata de protocolos inalámbricos tipo propietario creados para sensores, como competencia de la tecnología ZigBee.
+        p Se trata de protocolos inalámbricos tipo propietario, creados para sensores, como competencia de la tecnología ZigBee.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/7.svg' alt='7').figpasoi
         h4 OBEX
-        p Abreviatura de Object EXchange o intercambio de datos, este protocolo fue creado para facilitar el intercambio de información binaria entre dispositivos.
+        p Abreviatura de #[em Object EXchange] o intercambio de datos; este protocolo fue creado para facilitar el intercambio de información binaria entre dispositivos.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/8.svg' alt='8').figpasod
         h4 RadioRa
         p Protocolo de tipo propietario desarrollado por Lutron para radiofrecuencia (RF) doble vía, usado en el control de iluminación residencial.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/9.svg' alt='9').figpasoi
-        h4 Topdog
+        h4 #[em Topdog]
         p Protocolo tipo propietario inalámbrico, utilizado en el control de iluminación comercial y residencial.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/10.svg' alt='10').figpasod
@@ -343,15 +345,15 @@
         p Protocolo desarrollado para mejorar el desempeño y confiabilidad en cableados de energía eléctrica.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/11.svg' alt='11').figpasoi
-        h4 Wifi
-        p Sigla usada para el término en inglés <i>Wireless Fidelity</i> (wifi), tecnología para redes del tipo WLAN <i>Wireless Local Area Network</i>, basada en el estándar IEEE 802.11. Permite realizar la transmisión de información con señales de radiofrecuencia, conectar en una misma red diferentes dispositivos como celulares, PC, blu-ray e impresoras que estén ubicados dentro del radio de cobertura wifi.
+        h4 #[em Wifi]
+        p Sigla usada para el término en inglés <i>Wireless Fidelity (wifi)</i> , tecnología para redes del tipo WLAN <i>Wireless Local Area Network</i>, basada en el estándar IEEE 802.11. Permite realizar la transmisión de información con señales de radiofrecuencia, conectar en una misma red diferentes dispositivos como celulares, PC, #[em blu-ray] e impresoras que estén ubicados dentro del radio de cobertura #[em wifi].
       .row
         img(src='@/assets/curso/temas/tema1/iconos/12.svg' alt='12').figpasod
         h4 Wi-Max
         p Tecnología para red inalámbrica de área metropolitana con un alcance de 50 Km, velocidad de transmisión de hasta 70 Mbps, basada en el estándar 802.16, que opera en el rango de frecuencias de 10 GHz a 66 GHz con línea de vista, con el estándar 802.16a, opera entre los 2 y 11 GHz y sin línea de vista, puede usarse para receptores en vehículos móviles siempre que no superen 100 Km/h de velocidad, se creó como competencia para la tecnología xDSL y el acceso por cable módem.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/13.svg' alt='13').figpasoi
-        h4 Wireless USB
+        h4 #[em Wireless] USB
         p <i>Wireless Universal Serial Bus</i> (WUSB) en inglés, hace referencia a una conexión de alta velocidad, eficaz y sin cables, basada en la tecnología USB usada para PC.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/14.svg' alt='14').figpasod
@@ -359,7 +361,7 @@
         p Protocolo tipo propietario usado en redes inalámbricas de control de hogares.
       .row
         img(src='@/assets/curso/temas/tema1/iconos/15.svg' alt='15').figpasos
-        h4 ZigBee
+        h4 #[em ZigBee]
         p Especificación global creada para sistemas de control inalámbrico llamados <i>ZigBee Alliance</i>, se basa en el estándar IEEE 802.15.4, usado para radios digitales de baja frecuencia, con velocidad de transmisión 250 Kbps, y limitado a controladores de 8 bits.
 
     Separador
@@ -507,12 +509,12 @@
               ul.lista-ul--separador
                 li
                   i.fas.fa-play.texto-acento-contenido.me-4
-                  span Realizar site survey de la red diseñada para confirmar el cumplimiento de los requerimientos.
+                  span Realizar #[em site survey] de la red diseñada para confirmar el cumplimiento de los requerimientos.
                 li
                   i.fas.fa-play.texto-acento-contenido.me-4
                   span Ejecutar la simulación real del rendimiento, ubicando los puntos de acceso definidos por medio del <i>software</i> elegido.
 
-    p.mb-5(data-aos='fade-right') En relación con el diseño de una red inalámbrica, chequee los dos videos que se proponen enseguida y aprópiese del procedimiento de simulación profesional de cobertura radioeléctrica online, con la herramienta de planificación radioeléctrica Xirio-Online, para un caso específico de red:
+    p.mb-5(data-aos='fade-right') En relación con el diseño de una red inalámbrica, chequee los dos videos que se proponen enseguida y aprópiese del procedimiento de simulación profesional de cobertura radioeléctrica #[em online], con la herramienta de planificación radioeléctrica Xirio-Online, para un caso específico de red:
 
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-3.mb-4(data-aos='fade-right')
       h3.text-white.mb-0.mx-3 Interfaz principal Xirio Online
@@ -628,11 +630,11 @@
             .tarjeta.bg-12263f.p-4
               img.img-a.img-t(src='@/assets/curso/temas/tema1/img24.svg' alt='', style="width:91px").mx-auto.mb-4
               h4 Estática
-              p.mb-0 La dirección IP privada siempre se traduce en la misma dirección IP pública. Cualquier host dentro de la red será así visible desde Internet.
+              p.mb-0 La dirección IP privada siempre se traduce en la misma dirección IP pública. Cualquier <em>host</em> dentro de la red será así visible desde Internet.
             .tarjeta.bg-12263f.bg12.p-4
               img.img-a.img-t(src='@/assets/curso/temas/tema1/img25.svg' alt='', style="width:91px").mx-auto.mb-4
               h4 Dinámica
-              p.mb-0 A cada dirección IP privada le corresponde al menos una dirección IP pública de las que posee el <i>router</i>, así, cuando un host requiera una conexión a Internet el <i>router</i> asignará la dirección IP pública que no esté siendo usada. De este modo hay más seguridad.
+              p.mb-0 A cada dirección IP privada le corresponde al menos una dirección IP pública de las que posee el <i>router</i>, así, cuando un <em>host</em> requiera una conexión a Internet el <i>router</i> asignará la dirección IP pública que no esté siendo usada. De este modo hay más seguridad.
             .tarjeta.bg-12263f.p-4
               img.img-a.img-t(src='@/assets/curso/temas/tema1/img26.svg' alt='', style="width:91px").mx-auto.mb-4
               h4 Sobrecarga
@@ -672,7 +674,7 @@
       .col-lg-7
         p(data-aos='fade-right') Para realizar la correcta instalación de la red inalámbrica es vital realizar un aprestamiento o verificación del entorno, los componentes y herramientas necesarios, aplicando una lista de chequeo que verifique la disponibilidad, estado y características de estos, con la debida antelación (4 a 8 días) para poder tomar los correctivos a los que haya lugar. Igualmente, al menos un día antes o el mismo día muy temprano se debe realizar el alistamiento de los elementos, materiales, herramientas necesarias para la instalación de todos y cada uno de los dispositivos como antenas, repetidores adaptadores, <i>routers</i> y puntos de acceso.
         .cajon.color-acento-contenido.p-4.mb-4(data-aos='fade-right')
-          p.mb-0  Una vez cumplidos los anteriores aspectos se procede a realizar la instalación de los componentes de la red inalámbrica por parte del personal idóneo, que cumpla con todos los requisitos y normas vigentes para dicha labor.
+          p.mb-0  Una vez cumplidos los anteriores aspectos, se procede a realizar la instalación de los componentes de la red inalámbrica por parte del personal idóneo, que cumpla con todos los requisitos y normas vigentes para dicha labor.
       .col-lg-4.mx-auto
         img(src='@/assets/curso/temas/t1/f39.svg' alt='')
 
@@ -687,7 +689,7 @@
           h5 Figura 2
           span Representación de una antena
 
-        img(src='@/assets/curso/temas/tema1/img29.svg' alt='').mx-4(data-aos='zoom-in')
+        img(src='@/assets/curso/temas/tema1/img29.svg' alt='Gráfica que representa la estructura y funcionamiento de una antena.').mx-4(data-aos='zoom-in')
 
 
     p.mb-5 #[b Existen varios tipos de antenas, entre ellos:]
@@ -715,7 +717,7 @@
           h5 Figura 3
           span Representación de antena isotrópica
 
-        img(src='@/assets/curso/temas/tema1/img30.svg' alt='').mx-4
+        img(src='@/assets/curso/temas/tema1/img30.svg' alt='Esquema gráfico que representa la estructura y funcionamiento de una antena isotrópica.').mx-4
 
     p.mb-5 La pérdida de la señal puede ser ocasionada por varios motivos, entre los cuales se puede enumerar los siguientes:
 
@@ -737,6 +739,8 @@
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-3.mb-4(data-aos='fade-right')
       h3.text-white.mb-0.mx-3 Instalación de los adaptadores y el #[em  router]
 
+    p Los siguientes son los pasos de instalación de los adaptadores y el #[em router].
+
     PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos='fade-right')
       .row
         img(src='@/assets/curso/temas/t1/f42b.svg' alt='paso 1').figpasos
@@ -749,7 +753,7 @@
       .row
         img(src='@/assets/curso/temas/t1/f44b.svg' alt='paso 3').figpasoi
         h4 Paso 3
-        p Una vez que la tarjeta de red se ha instalado con éxito se deben establecer los valores de configuración de la tarjeta como dirección IP, máscara de subred, puerta de enlace o <i>gateway</i>, y servidores DNS (se recomienda ponerse en contacto con el administrador de red para comprobar los valores de configuración).
+        p Una vez que la tarjeta de red se ha instalado con éxito, se deben establecer los valores de configuración de la tarjeta como dirección IP, máscara de subred, puerta de enlace o <i>gateway</i>, y servidores DNS (se recomienda ponerse en contacto con el administrador de red para comprobar los valores de configuración).
       .row
         img(src='@/assets/curso/temas/t1/f45b.svg' alt='paso 4').figpasoe
         h4 Paso 4
@@ -759,7 +763,7 @@
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-3.mb-4(data-aos='fade-right')
       h3.text-white.mb-0.mx-3 Instalación del #[em #[i router]]
 
-    p.mb-5(data-aos='fade-right') Este dispositivo posee puertos RJ45 para red LAN, en los cuales se deben conectar los cables patch cord hacia los dispositivos cableados y red WAN, donde se debe colocar el cable patch cord de alimentación a Internet del ISP, igualmente, se debe colocar la antena para acceso inalámbrico de los dispositivos a la red WLAN.  Por tratarse de un dispositivo activo se debe conectar el respectivo cable o adaptador de alimentación para su funcionamiento y, proceder a configurar las características básicas y necesarias como elemento de la red.
+    p.mb-5(data-aos='fade-right') Este dispositivo posee puertos RJ45 para red LAN, en los cuales se deben conectar los cables #[em patch cord] hacia los dispositivos cableados y red WAN, donde se debe colocar el cable #[patch cord] de alimentación a Internet del ISP, igualmente, se debe colocar la antena para acceso inalámbrico de los dispositivos a la red WLAN.  Por tratarse de un dispositivo activo se debe conectar el respectivo cable o adaptador de alimentación para su funcionamiento y, proceder a configurar las características básicas y necesarias como elemento de la red.
 
     .bg-slyde-gradiente-2.mb-5
       p.mb-4.pt-4 En el siguiente video podrá observar el procedimiento para la configuración de dispositivos.

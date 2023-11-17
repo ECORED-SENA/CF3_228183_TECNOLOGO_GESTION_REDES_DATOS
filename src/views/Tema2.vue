@@ -286,11 +286,11 @@
     Separador
 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.3. Red wifi para invitados
+      h2 2.3. Red #[em wifi] para invitados
 
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos='fade-right')
-        p Con seguridad, son varias las ocasiones en que las personas como usted se han encontrado en la situación de que amigos o familiares piden la clave del wifi. Una visita, por ejemplo, quiere conectarse a la red.
+        p Con seguridad, son varias las ocasiones en que las personas como usted se han encontrado en la situación de que amigos o familiares piden la clave del #[em wifi]. Una visita, por ejemplo, quiere conectarse a la red.
         p Ahora bien, en ocasiones puede ser un problema, puede ocurrir que simplemente no se recuerde la clave o que se quiera, sencillamente, mantener la seguridad de la red o, incluso, poner cierto límite y que no se consuma todo el ancho de banda. Esto último especialmente es interesante en conexiones más lentas, como puede ser ADSL, en la que los recursos son más limitados.
       .col-lg-4.d-none.d-lg-block(data-aos='fade-right')
         figure
@@ -322,7 +322,7 @@
               span Ya se sabe que evitar la pérdida de señal wifi es vital.
 
     .bg-slyde-gradiente-2.mb-5
-      p.mb-4.pt-4(data-aos='fade-right') #[strong El video que se muestra enseguida, expone las generalidades de configuración de wifi para invitados:]
+      p.mb-4.pt-4(data-aos='fade-right') #[strong El video que se muestra enseguida, expone las generalidades de configuración de #[em wifi] para invitados:]
 
       figure.mb-5
         .video
@@ -362,16 +362,16 @@
               //- estas clases tambien tienen un modificador --borde
               .tarjeta.bg-CFC0FA
                 .p-4
-                  p Se puede asignar que únicamente el 20% del total de la red (o lo que se quiera) esté disponible en la red wifi para invitados.
+                  p Se puede asignar que únicamente el 20% del total de la red (o lo que se quiera) esté disponible en la red #[em wifi] para invitados.
 
-    p.mb-5(data-aos='fade-right') De esta manera se puede crear una red wifi para invitados. Una forma práctica para que las visitas se puedan conectar a la red sin revelar la clave principal, ni poner en peligro el resto de los equipos conectados a la red.
+    p.mb-5(data-aos='fade-right') De esta manera se puede crear una red #[em wifi] para invitados. Una forma práctica para que las visitas se puedan conectar a la red sin revelar la clave principal, ni poner en peligro el resto de los equipos conectados a la red.
 
     Separador
 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.4. Prioridad de medios
 
-    p.mb-5(data-aos='fade-right') Cambie la prioridad de los adaptadores de red en Windows 10 desde el centro de redes de este sistema operativo. Lo primero que se debe hacer es abrir el centro de redes y recursos compartidos, para ello, en el siguiente video se explicará la configuración de la prioridad de medios.
+    p.mb-5(data-aos='fade-right') Cambie la prioridad de los adaptadores de red en Windows 10 desde el centro de redes de este sistema operativo. Lo primero que se debe hacer es abrir el centro de redes y recursos compartidos; para ello, en el siguiente video se explicará la configuración de la prioridad de medios.
 
     figure.mb-5
       .video
@@ -391,7 +391,7 @@
         p.mb-0 Es posible que una aplicación determinada o, por ejemplo, un juego en un momento concreto pida algo denominado reenvío de puertos, sin ese reenvío de puertos no podría haber conexión entre la aplicación o juego y el tráfico entrante o datos ingresados en Internet. No se puede hacer uso de determinadas funciones con las que cuenta un <i>software</i> determinado.
         br
         br
-        | Este problema se puede solucionar si se configura el reenvío de puertos en Windows 10; es un proceso sencillo y simplemente hay que llevar a cabo una serie de pasos que se van a explicar en el siguiente video.
+        | Este problema se puede solucionar si se configura el reenvío de puertos en Windows 10; es un proceso sencillo y simplemente hay que llevar a cabo una serie de pasos que se explican en el siguiente video:
 
     figure.mb-5
       .video

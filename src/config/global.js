@@ -93,33 +93,28 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Configuración del router TPLINK con referencia TL-MR3220',
+            titulo: 'Seguridad, <em>firewall</em>, filtros, aplicaciones',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Seguridad, firewall, filtros, aplicaciones',
+            titulo: 'Características adicionales de las redes',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Características adicionales de las redes',
+            titulo: 'Red <em>wifi</em> para invitados',
             hash: 't_2_3',
           },
           {
             numero: '2.4',
-            titulo: 'Red wifi para invitados',
+            titulo: 'Prioridad de medios',
             hash: 't_2_4',
           },
           {
             numero: '2.5',
-            titulo: 'Prioridad de medios',
-            hash: 't_2_5',
-          },
-          {
-            numero: '2.6',
             titulo: 'Reenvío de puertos',
-            hash: 't_2_6',
+            hash: 't_2_5',
           },
         ],
       },
@@ -253,9 +248,9 @@ export default {
         'Proceso utilizado para determinar la mejor ruta y hacer avanzar la información a lo largo de esa ruta, a partir de una red fuente o segmento de red hacia una dirección de red de destino.',
     },
     {
-      termino: 'Host',
+      termino: '<em>Host</em>',
       significado:
-        'Sistema informático en una red. Similar al término nodo, salvo que host normalmente implica un computador, mientras que nodo generalmente se aplica a cualquier sistema de red, incluyendo servidores de acceso y el router.',
+        'Sistema informático en una red. Similar al término nodo, salvo que <i>host</i> normalmente implica un computador, mientras que nodo generalmente se aplica a cualquier sistema de red, incluyendo servidores de acceso y el router.',
     },
     {
       termino: 'Modelo OSI',
@@ -278,7 +273,7 @@ export default {
       referencia:
         'Jiménez, J. (2020). Cómo configurar el reenvío de puertos en Windows 10. ',
       link:
-        'https://www.redeszone.net/tutoriales/configuracion-puertos/configurar-reenvio-puertos-windows/',
+        'https://es.scribd.com/document/485694341/Como-instalar-y-configurar-servidor-FTP-Windows-10',
     },
     {
       referencia:
@@ -293,8 +288,7 @@ export default {
     {
       referencia:
         'Linksys. (s.f.). ¿Qué es un punto de acceso y en qué se diferencia de un extensor de red?',
-      link:
-        'https://www.linksys.com/es/r/qu%C3%A9-es-un-extensor-de-red/qu%C3%A9-es-un-punto-de-acceso/',
+      link: 'https://www.linksys.com/ar/support-article/?articleNum=187985',
     },
     {
       referencia:
