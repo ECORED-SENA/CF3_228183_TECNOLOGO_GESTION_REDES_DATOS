@@ -1,0 +1,26 @@
+<svg id="Grupo_54416" data-name="Grupo 54416" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="123.833" height="123.833" viewBox="0 0 123.833 123.833">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.076" cy="0.019" r="1.465" gradientTransform="translate(0.001)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f7"/>
+      <stop offset="0.477" stop-color="#f9f9fa"/>
+      <stop offset="0.715" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_42274" data-name="Grupo 42274" transform="translate(0 0)">
+    <g id="Grupo_18423" data-name="Grupo 18423">
+      <g id="Grupo_18421" data-name="Grupo 18421">
+        <g id="Grupo_18420" data-name="Grupo 18420">
+          <g id="Grupo_18419" data-name="Grupo 18419">
+            <path id="Trazado_40936" data-name="Trazado 40936" d="M318.456,2207.635a61.916,61.916,0,1,1-61.915-61.915A61.915,61.915,0,0,1,318.456,2207.635Z" transform="translate(-194.623 -2145.721)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <path id="Trazado_40937" data-name="Trazado 40937" d="M317.728,2206.843a61.915,61.915,0,1,0-61.915,61.918A61.672,61.672,0,0,0,317.728,2206.843Z" transform="translate(-193.895 -2144.928)" fill="url(#radial-gradient)"/>
+      <path id="Trazado_40938" data-name="Trazado 40938" d="M296.6,2200.4a47.26,47.26,0,1,0-47.26,47.26A47.084,47.084,0,0,0,296.6,2200.4Z" transform="translate(-187.238 -2138.278)" fill="none" stroke="#6e40fc" stroke-miterlimit="10" stroke-width="4"/>
+      <g id="Grupo_18422" data-name="Grupo 18422" transform="translate(10.969 34.762)">
+        <path id="Trazado_40939" data-name="Trazado 40939" d="M307.148,2164.488a61.924,61.924,0,0,1-106.6,61.66,61.727,61.727,0,0,0,106.6-61.66Z" transform="translate(-200.545 -2164.488)" fill="#eceef0"/>
+      </g>
+    </g>
+  </g>
+  <text id="_10" data-name="10" transform="translate(40.613 43.977)" fill="#6e40fc" font-size="35" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="37">10</tspan></text>
+</svg>
