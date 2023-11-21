@@ -85,7 +85,7 @@
       .col-lg-6
         p(data-aos='fade-right') Una red inalámbrica es más vulnerable, pues la señal se difunde en el espacio libre, permitiendo que los usuarios con equipos cercanos puedan acceder a la información almacenada en los equipos de la red y usar la conexión a Internet.
         .cajon.color-acento-contenido.p-4.mb-4(data-aos='fade-right')
-          p.mb-0 Se debe cambiar el nombre de usuario, contraseña y SSID predeterminados para proteger el enrutador. Es importante configurar una contraseña para la red inalámbrica, dependiendo del tipo de protección deseada por parte del usuario, para ello existen entre otros tres tipos de seguridad o protección en el menú <i>wireless security</i> que son:
+          p.mb-0 Se debe cambiar el nombre de usuario, contraseña y SSID predeterminados para proteger el enrutador. Es importante configurar una contraseña para la red inalámbrica, dependiendo del tipo de protección deseada por parte del usuario; para ello existen, entre otros, tres tipos de seguridad o protección en el menú <i>wireless security</i> que son:
 
         ul.lista-ul--separador
           li(data-aos='fade-right')

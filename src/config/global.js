@@ -185,7 +185,7 @@ export default {
     {
       termino: 'Adaptador de red',
       significado:
-        'Dispositivo de hardware que se inserta en la estación de trabajo de una red y le permite comunicarse con otros elementos unidos a esta red. ',
+        'Dispositivo de <i>hardware</i> que se inserta en la estación de trabajo de una red y le permite comunicarse con otros elementos unidos a esta red. ',
     },
     {
       termino: 'Capa de aplicación',
@@ -220,7 +220,7 @@ export default {
     {
       termino: 'Capa física',
       significado:
-        'Capa 1 del modelo OSI que define la manera como la corriente eléctrica de bits se transporta a través del hardware y los dispositivos mecánicos de la red.',
+        'Capa 1 del modelo OSI que define la manera como la corriente eléctrica de <i>bits</i> se transporta a través del <i>hardware</i> y los dispositivos mecánicos de la red.',
     },
     {
       termino: 'Datagrama',
@@ -230,7 +230,7 @@ export default {
     {
       termino: 'Dirección IP (protocolo de Internet)',
       significado:
-        'Es la dirección de red o lógica de un nodo. Está compuesta por cuatro números de ocho bits (cada uno de ellos llamado octeto) que se combinan para identificar no solo la estación de trabajo o nodo, sino también su red. La dirección IP identifica una estación de trabajo con la LAN, WAN e Internet.',
+        'Es la dirección de red o lógica de un nodo. Está compuesta por cuatro números de ocho <i>bits</i> (cada uno de ellos llamado octeto) que se combinan para identificar no solo la estación de trabajo o nodo, sino también su red. La dirección IP identifica una estación de trabajo con la LAN, WAN e Internet.',
     },
     {
       termino: 'DNS',
@@ -250,7 +250,7 @@ export default {
     {
       termino: '<em>Host</em>',
       significado:
-        'Sistema informático en una red. Similar al término nodo, salvo que <i>host</i> normalmente implica un computador, mientras que nodo generalmente se aplica a cualquier sistema de red, incluyendo servidores de acceso y el router.',
+        'Sistema informático en una red. Similar al término nodo, salvo que <i>host</i> normalmente implica un computador, mientras que nodo generalmente se aplica a cualquier sistema de red, incluyendo servidores de acceso y el <i>router</i>.',
     },
     {
       termino: 'Modelo OSI',
@@ -271,7 +271,7 @@ export default {
     },
     {
       referencia:
-        'Jiménez, J. (2020). Cómo configurar el reenvío de puertos en Windows 10. ',
+        'Jiménez, J. (2020). Cómo instalar y configurar servidor FTP Windows 10. ',
       link:
         'https://es.scribd.com/document/485694341/Como-instalar-y-configurar-servidor-FTP-Windows-10',
     },
@@ -284,11 +284,6 @@ export default {
       referencia:
         'Linksys. (s.f.). Configuración de su extensor de red Linksys en modo Punto de Acceso.',
       link: 'https://www.linksys.com/es/support-article/?articleNum=187985',
-    },
-    {
-      referencia:
-        'Linksys. (s.f.). ¿Qué es un punto de acceso y en qué se diferencia de un extensor de red?',
-      link: 'https://www.linksys.com/ar/support-article/?articleNum=187985',
     },
     {
       referencia:

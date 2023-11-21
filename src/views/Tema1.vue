@@ -45,7 +45,7 @@
             img(src="@/assets/curso/temas/t1/f2.svg", alt="Ilustración red WPAN").p-4
           .col-md-6.mb-4.mb-md-0
             h5 Redes inalámbricas de area personal o WPAN
-            p (<i>Wireless Personal Área Network</i>). Su alcance es por debajo de los 10 metros, usadas para para comunicar dispositivos de un usuario como, por ejemplo, el PC y la impresora, ya sea por uso de Bluetooth o de IEEE 802.15.
+            p (<i>Wireless Personal Área Network</i>). Su alcance es por debajo de los 10 metros, usadas para para comunicar dispositivos de un usuario como, por ejemplo, el PC y la impresora, ya sea por uso de  #[em Bluetooth] o de IEEE 802.15.
       .bg-fbfaff.py-3.py-md-4(titulo="Red WLAN")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0(data-aos='fade-right')
@@ -266,7 +266,7 @@
         figure.mb-4
           img(src='@/assets/curso/temas/tema1/f16.svg' alt='Ilustración modo BSS')
       .col-lg-6
-        p Para las redes que trabajan con el estándar IEEE 802.11, el modo de infraestructura se conoce como Conjunto de Servicios Básicos (BSS - #[em Basic Service Set]) y las denominan también cliente - servidor o maestro - esclavo. Para este modo de infraestructura existe un dispositivo central que corresponde al punto de acceso o estación base, que generalmente se conecta a una red <i>Ethernet</i> cableada, y así los clientes inalámbricos pueden acceder a la red fija por medio del punto de acceso. En el proceso de interconexión de los dispositivos inalámbricos hacia los puntos de acceso se debe configurar con el mismo SSID, lo que garantiza optimizar la capacidad total de la red.
+        p Para las redes que trabajan con el estándar IEEE 802.11, el modo de infraestructura se conoce como Conjunto de Servicios Básicos (BSS - #[em Basic Service Set]) y las denominan también cliente - servidor o maestro - esclavo. Para este modo de infraestructura existe un dispositivo central que corresponde al punto de acceso o estación base que, generalmente, se conecta a una red <i>Ethernet</i> cableada, y así los clientes inalámbricos pueden acceder a la red fija por medio del punto de acceso. En el proceso de interconexión de los dispositivos inalámbricos hacia los puntos de acceso se debe configurar con el mismo SSID, lo que garantiza optimizar la capacidad total de la red.
         p Para este caso se pueden encontrar varias formas de distribuir los elementos conectados a la red, las cuales se presentan en la siguiente tabla.
 
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-3.mb-4(data-aos='fade-right')
@@ -588,7 +588,7 @@
       .col-lg-5.mx-auto
         img(src='@/assets/curso/temas/t1/f32.svg' alt='Wifi')
 
-    p.mb-4(data-aos='fade-right') Para asignar direcciones con DHCP se toma el modelo cliente-servidor, donde el terminal o usuario solicita la configuración IP al servidor DHCP, que es quien asigna la respectiva dirección IP acompañada de la máscara de subred, puerta de enlace predeterminada, servidor DNS, y configuración proxy por WPAD (<i>Web Proxy Auto-Discovery Protocol</i>) necesarios para poder acceder a los servicios. La asignación de esta dirección dinámica es de carácter temporal mientras dura la conexión con el servicio solicitado, una vez se termina la conexión, esta dirección es liberada para ser asignada a otro usuario.
+    p.mb-4(data-aos='fade-right') Para asignar direcciones con DHCP se toma el modelo cliente-servidor, donde el terminal o usuario solicita la configuración IP al servidor DHCP, que es quien asigna la respectiva dirección IP acompañada de la máscara de subred, puerta de enlace predeterminada, servidor DNS, y configuración #[em proxy] por WPAD (<i>Web Proxy Auto-Discovery Protocol</i>) necesarios para poder acceder a los servicios. La asignación de esta dirección dinámica es de carácter temporal mientras dura la conexión con el servicio solicitado, una vez se termina la conexión, esta dirección es liberada para ser asignada a otro usuario.
 
     h4(data-aos='fade-right') El servidor DHCP informa al <i>Domain Name System</i>
 
@@ -763,7 +763,7 @@
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-3.mb-4(data-aos='fade-right')
       h3.text-white.mb-0.mx-3 Instalación del #[em #[i router]]
 
-    p.mb-5(data-aos='fade-right') Este dispositivo posee puertos RJ45 para red LAN, en los cuales se deben conectar los cables #[em patch cord] hacia los dispositivos cableados y red WAN, donde se debe colocar el cable #[patch cord] de alimentación a Internet del ISP, igualmente, se debe colocar la antena para acceso inalámbrico de los dispositivos a la red WLAN.  Por tratarse de un dispositivo activo se debe conectar el respectivo cable o adaptador de alimentación para su funcionamiento y, proceder a configurar las características básicas y necesarias como elemento de la red.
+    p.mb-5(data-aos='fade-right') Este dispositivo posee puertos RJ45 para red LAN, en los cuales se deben conectar los cables #[em patch cord] hacia los dispositivos cableados y red WAN, donde se debe colocar el cable #[em patch cord] de alimentación a Internet del ISP, igualmente, se debe colocar la antena para acceso inalámbrico de los dispositivos a la red WLAN.  Por tratarse de un dispositivo activo se debe conectar el respectivo cable o adaptador de alimentación para su funcionamiento y, proceder a configurar las características básicas y necesarias como elemento de la red.
 
     .bg-slyde-gradiente-2.mb-5
       p.mb-4.pt-4 En el siguiente video podrá observar el procedimiento para la configuración de dispositivos.
